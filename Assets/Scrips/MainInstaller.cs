@@ -25,15 +25,6 @@ namespace Assets.Scrips
 		[SerializeField]
 		private TextAsset _gameConfig;
 
-		[SerializeField]
-		private AssetReference _windowsFactoryAsset;
-
-		[SerializeField]
-		private AssetReference _visualFactoryAsset;
-
-		[SerializeField]
-		private AssetReference _prefabsFactoryAsset;
-
         [SerializeField]
         private VisualFactory _visualFactory;
         
@@ -60,7 +51,6 @@ namespace Assets.Scrips
             Container.Bind<IVisualFactory>().To<VisualFactory>().FromInstance(_visualFactory).AsSingle();
             Container.Bind<IPrefabsFactory>().To<PrefabsFactory>().FromInstance(_prefabsFactory).AsSingle();
             Container.Bind<IWindowFactory>().To<WindowFactory>().FromInstance(_windowFactory).AsSingle();
-            Container.QueueForInject(_visualFactory);
             Container.QueueForInject(_prefabsFactory);
             Container.QueueForInject(_windowFactory);
 
