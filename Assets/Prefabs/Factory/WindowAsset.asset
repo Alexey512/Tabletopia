@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e415166db0e2e40a186a7557ee61bd, type: 3}
+  m_Name: WindowAsset
+  m_EditorClassIdentifier: 
+  _Prefabs:
+  - Id: MainHUD
+    Prefab: {fileID: 7028931080939551621, guid: 22e6ca4844cc0e74eb7a74ac14261827,
+      type: 3}
+  - Id: HiddenObjectsHUD
+    Prefab: {fileID: 749100834, guid: 5d94fb82559f64545829de08050b845f, type: 3}
+  - Id: HiddenObjectsWin
+    Prefab: {fileID: 6880776482142386418, guid: e5d8733a989d36f4db379624bfd41499,
+      type: 3}
+  - Id: MainMapHUD
+    Prefab: {fileID: 2821192741024407644, guid: 73bb40723e198bf4e8b5841627b51647,
+      type: 3}
+  - Id: SelectMaid
+    Prefab: {fileID: 1341259229620349192, guid: e2b85981fc9cae64698406cef4349895,
+      type: 3}
+  - Id: HiddenObjectsLoos
+    Prefab: {fileID: 5488563891031551246, guid: ce5925eda1adaf348a348640e1f41374,
+      type: 3}
+  - Id: OfficeHUD
+    Prefab: {fileID: 4529717809536040837, guid: ab98aa04a6357ae4ba4b8931757ebf2a,
+      type: 3}
+  - Id: BuyMaid
+    Prefab: {fileID: 5037342154160619580, guid: f376341c8d984b44ab39d80888fac15a,
+      type: 3}
+  - Id: UpgradeMaid
+    Prefab: {fileID: 6935571167956460991, guid: 7e09af8ad6a99564d9198675c38d1d19,
+      type: 3}
+  - Id: TasksWindow
+    Prefab: {fileID: 7919220352977014793, guid: 83d4e3d7f39512e4c9b19c7215a6b72c,
+      type: 3}
+  - Id: UpgradeObjectWindow
+    Prefab: {fileID: 3410057837107619629, guid: 96091f42b141e1147aab5ef18410de87,
+      type: 3}
+  - Id: InboxWindow
+    Prefab: {fileID: 7025488773697654804, guid: 8ddf7362b82579c438748ec89a592ff2,
+      type: 3}
+  - Id: DialogsWindow
+    Prefab: {fileID: 4951349707878679351, guid: 1c1dcb45b142caa408273fb6d8b2884c,
+      type: 3}
+  - Id: ShopWindow
+    Prefab: {fileID: 5379657180396942997, guid: fe0b9265c6f7b9b42b6819b1533c7968,
+      type: 3}
+  - Id: MaidsWindow
+    Prefab: {fileID: 4747608946082169765, guid: 729dd8d4256a9e645beed942bf47b56b,
+      type: 3}
+  - Id: InventoryWindow
+    Prefab: {fileID: 5819000170679753322, guid: 9111a9993e4ffca47bf0ce7455b04861,
+      type: 3}
+  - Id: BuyBoostersWindow
+    Prefab: {fileID: 4441266238549236373, guid: e40366685832efe4b8730f6ef15952a8,
+      type: 3}
+  - Id: AlbumWindow
+    Prefab: {fileID: 2766813038392193275, guid: 632c449c23935b14d8d575eb5c85087e,
+      type: 3}
+  - Id: LuckyWheelWindow
+    Prefab: {fileID: 7367287618140184992, guid: 38f07f350b8dc754b83be79bbf768740,
+      type: 3}
+  - Id: QuestsWindow
+    Prefab: {fileID: 7939452885251339811, guid: 92a308b0c246c63458d28eb11d752c00,
+      type: 3}
+  - Id: SpeedCleanWindow
+    Prefab: {fileID: 5641617055391927181, guid: 7ca8ac1273cc35d46a69bb18e640b037,
+      type: 3}
+  - Id: RefillReplyWindow
+    Prefab: {fileID: 263232147404591828, guid: 65923d58cebc1404fb4d1582035cdc79, type: 3}
+  - Id: AddReplyLimitWindow
+    Prefab: {fileID: 5762049938000561965, guid: 5f948082fcd3cef49bcbfd408d721b8a,
+      type: 3}
+  - Id: LetterWindow
+    Prefab: {fileID: 2132396318784505282, guid: 3bd8c0063fe6fec4e8a2b3d62aa7dab0,
+      type: 3}
+  - Id: TutorialBlob
+    Prefab: {fileID: 5210272333270422359, guid: 768efede557d90d44b5391d67e3fc6c0,
+      type: 3}
+  - Id: NewTaskWindow
+    Prefab: {fileID: 1809030822102697466, guid: 4e653edd2f905cc40986d5338d05e8a9,
+      type: 3}
+  - Id: GiftBonusWindow
+    Prefab: {fileID: 9073697370399682482, guid: 78e1906c046e69f409bc6ad6d0842087,
+      type: 3}
+  - Id: SettingsWindow
+    Prefab: {fileID: 9104059107379648997, guid: 8d16dcc995c0ef74d8ef74066f81599e,
+      type: 3}
+  - Id: SuccessBuyWindow
+    Prefab: {fileID: 6127398410806376476, guid: a2e201c6cd28b5c4491251ff19540e0d,
+      type: 3}
+  - Id: LeaderboardWindow
+    Prefab: {fileID: 6608450547065238000, guid: 266161b344ff8934db6ee2ef1ebe2308,
+      type: 3}
+  - Id: MainMenu
+    Prefab: {fileID: 5444625965791284568, guid: 3a28c41f22497ea47a7e3d5162e0d7fc,
+      type: 3}
+  - Id: UiBubble
+    Prefab: {fileID: 4786056590693629984, guid: d80a6fcdf95fe444abd204d40b393900,
+      type: 3}
